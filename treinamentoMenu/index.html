@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CorporateFlix | Portal de Treinamentos</title>
+  <link rel="stylesheet" href="shell.css">
+</head>
+<body class="corpo-shell">
+
+  <div class="estrutura-principal">
+
+    <!-- Menu de navegação estático -->
+    <nav class="menu-lateral">
+      <p class="logotipo">CorporateFlix</p>
+      <ul class="lista-links">
+        <li>
+          <a href="boas-vindas.html" target="painel-conteudo" class="link-menu">
+            Boas-vindas
+          </a>
+        </li>
+        <li>
+          <a href="aula-padrao.html" target="painel-conteudo" class="link-menu">
+            Aula 01 — Introdução ao Compliance
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Área de exibição contendo o iframe -->
+    <main class="area-exibicao">
+      <iframe
+        name="painel-conteudo"
+        class="painel-dinamico"
+        src="boas-vindas.html"
+        title="Painel de conteúdo do treinamento"
+        allow="fullscreen"
+        allowfullscreen>
+      </iframe>
+    </main>
+
+  </div>
+
+</body>
+</html>
